@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 16
+        node-version: 18
         registry-url: https://npm.pkg.github.com
 
     - name: Install dependencies
@@ -26,8 +26,6 @@ jobs:
       run: npm test
 
     - name: Publish package
-      run: |
-        npm version patch -m "Bump to version %s"
-        npm publish --access public --scope=@boom-army
+      run: npm publish --access public --scope=@boom-army
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

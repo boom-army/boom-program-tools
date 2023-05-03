@@ -18,7 +18,7 @@
     "build": "tsc -P tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "dist:format": "prettier --write \"dist/**/*.d.ts\"",
     "test": "jest src/__tests__/*.test.ts",
-    "publish": "yarn build && yarn dist:format && npm publish --access public"
+    "publish": "yarn build && yarn dist:format && npm version patch -m 'Bump to version %s' && npm publish --access public"
   },
   "dependencies": {
     "@solana/spl-token": "^0.3.7",
