@@ -9,9 +9,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "@boom-army:registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "prepare": "husky install",
     "prettier": "prettier --check \"src/**/*.ts\"",
@@ -20,7 +17,8 @@
     "tsc": "tsc",
     "build": "tsc -P tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "dist:format": "prettier --write \"dist/**/*.d.ts\"",
-    "test": "jest src/__tests__/*.test.ts"
+    "test": "jest src/__tests__/*.test.ts",
+    "publish": "yarn build && yarn dist:format && npm publish --access public"
   },
   "dependencies": {
     "@solana/spl-token": "^0.3.7",
