@@ -1,6 +1,6 @@
 {
   "name": "@boom-army/formfunction-program-shared",
-  "version": "0.0.62",
+  "version": "0.0.63",
   "description": "Shared client SDK utils for formfunction Solana programs.",
   "repository": "https://github.com/boom-army/formfn-program-shared",
   "license": "GNU AGPLv3",
