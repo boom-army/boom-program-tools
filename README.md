@@ -73,4 +73,4 @@ Follow these steps to publish a new version of the library:
 2. Run `git push origin NEW_TAG`.
 3. `git push` the new commit as well.
 4. Wait for the GitHub action to build and publish the library.
-5. Update client SDKs by running `yarn add @formfunction-hq/formfunction-program-shared@latest`.
+5. Update client SDKs by running `yarn add @boom-army/boom-program-tools@latest`.
