@@ -1,9 +1,5 @@
-<br/>
-
-![](banner.jpeg)
-
 <div align="center">
-  <h1>Formfunction Program Shared</h1>
+  <h1>Solana Program Shared</h1>
   <a href="#overview">Overview</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="#repo-structure">Repo Structure</a>

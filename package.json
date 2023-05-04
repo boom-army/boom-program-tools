@@ -1,8 +1,8 @@
 {
-  "name": "@boom-army/formfunction-program-shared",
+  "name": "@boom-army/boom-program-tools",
   "version": "0.0.64",
-  "description": "Shared client SDK utils for formfunction Solana programs.",
-  "repository": "https://github.com/boom-army/formfn-program-shared",
+  "description": "Shared client SDK utils for Solana programs.",
+  "repository": "https://github.com/boom-army/boom-program-tools",
   "license": "GNU AGPLv3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
