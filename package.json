@@ -1,6 +1,6 @@
 {
   "name": "@boom-army/boom-program-tools",
-  "version": "0.0.63",
+  "version": "0.0.62",
   "description": "Shared client SDK utils for Solana programs.",
   "repository": "https://github.com/boom-army/boom-program-tools",
   "license": "GNU AGPLv3",
